@@ -19,19 +19,19 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Button Grid.Column="0" Click="display_ace">
+            <Button Grid.Column="0" Click="display_text" Tag="Ace of Spades">
                 <Image Source="Images\Ace_Spades.jpg" Stretch="Fill"/>
             </Button>
-            <Button Grid.Column="1" Click="display_jack">
+            <Button Grid.Column="1" Click="display_text" Tag="Jack of Clubs">
                 <Image Source="Images\Jack_Clubs.jpg" Stretch="Fill"/>
             </Button>
-            <Button Grid.Column="2" Click="display_joker">
+            <Button Grid.Column="2" Click="display_text" Tag="A Black Joker">
                 <Image Source="Images\Joker_Black.jpg" Stretch="Fill"/>
             </Button>
-            <Button Grid.Column="3" Click="display_king">
+            <Button Grid.Column="3" Click="display_text" Tag="King of Diamonds">
                 <Image Source="Images\King_Diamonds.jpg" Stretch="Fill"/>
             </Button>
-            <Button Grid.Column="4" Click="display_queen">
+            <Button Grid.Column="4" Click="display_text" Tag="Queen of Hearts">
                 <Image Source="Images\Queen_Hearts.jpg" Stretch="Fill"/>
             </Button>
         </Grid>
