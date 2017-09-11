@@ -13,3 +13,18 @@ G:\Projects\C#\as1\AS1\AS1\obj\Debug\AS1.csproj.GenerateResource.Cache
 G:\Projects\C#\as1\AS1\AS1\obj\Debug\AS1.csproj.CoreCompileInputs.cache
 G:\Projects\C#\as1\AS1\AS1\obj\Debug\AS1.exe
 G:\Projects\C#\as1\AS1\AS1\obj\Debug\AS1.pdb
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\AS1\AS1\bin\Debug\AS1.exe.config
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\AS1\AS1\bin\Debug\AS1.exe
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\AS1\AS1\bin\Debug\AS1.pdb
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\AS1\AS1\obj\Debug\AS1.csprojResolveAssemblyReference.cache
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\AS1\AS1\obj\Debug\MainWindow.g.cs
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\AS1\AS1\obj\Debug\App.g.cs
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\AS1\AS1\obj\Debug\AS1_MarkupCompile.cache
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\AS1\AS1\obj\Debug\AS1_MarkupCompile.lref
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\AS1\AS1\obj\Debug\MainWindow.baml
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\AS1\AS1\obj\Debug\AS1.g.resources
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\AS1\AS1\obj\Debug\AS1.Properties.Resources.resources
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\AS1\AS1\obj\Debug\AS1.csproj.GenerateResource.Cache
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\AS1\AS1\obj\Debug\AS1.csproj.CoreCompileInputs.cache
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\AS1\AS1\obj\Debug\AS1.exe
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\AS1\AS1\obj\Debug\AS1.pdb
