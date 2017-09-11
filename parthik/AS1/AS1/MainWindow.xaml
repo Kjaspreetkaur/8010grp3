@@ -1,0 +1,43 @@
+﻿<Window x:Class="AS1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AS1"
+        mc:Ignorable="d"
+        Title="Card Identifier" Height="350" Width="525">
+    <Grid Background="#FF016639">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Click="display_ace">
+                <Image Source="Images\Ace_Spades.jpg" Stretch="Fill"/>
+            </Button>
+            <Button Grid.Column="1" Click="display_jack">
+                <Image Source="Images\Jack_Clubs.jpg" Stretch="Fill"/>
+            </Button>
+            <Button Grid.Column="2" Click="display_joker">
+                <Image Source="Images\Joker_Black.jpg" Stretch="Fill"/>
+            </Button>
+            <Button Grid.Column="3" Click="display_king">
+                <Image Source="Images\King_Diamonds.jpg" Stretch="Fill"/>
+            </Button>
+            <Button Grid.Column="4" Click="display_queen">
+                <Image Source="Images\Queen_Hearts.jpg" Stretch="Fill"/>
+            </Button>
+        </Grid>
+        <Label Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" 
+               FontSize="36" FontFamily="Impact" Foreground="#fff" Name="showText"/>
+    </Grid>
+    
+</Window>
+

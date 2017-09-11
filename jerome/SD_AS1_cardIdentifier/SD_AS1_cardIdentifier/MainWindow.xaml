@@ -1,0 +1,41 @@
+﻿<Window x:Class="SD_AS1_cardIdentirifier.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SD_AS1_cardIdentirifier"
+        mc:Ignorable="d" Title="Card Identifier" Height="500" Width="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="4*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Name="lblCard1" Grid.Row="0" Grid.Column="1" Text="" FontSize="30" HorizontalAlignment="Right" Margin="0,0,0.333,0" Width="474"/>
+        <TextBlock Name="lblCard2" Grid.Row="1" Grid.Column="1" Text="" FontSize="30" HorizontalAlignment="Left" Margin="0.333,0,0,0" Width="474"/>
+        <TextBlock Name="lblCard3" Grid.Row="2" Grid.Column="1" Text="" FontSize="30"/>
+        <TextBlock Name="lblCard4" Grid.Row="3" Grid.Column="1" Text="" FontSize="30"/>
+        <TextBlock Name="lblCard5" Grid.Row="4" Grid.Column="1" Text="" FontSize="30"/>
+        <Button Name="btnCard1" Grid.Row="0" Grid.Column="0" FontSize="40">
+            <Image Source="D:\Conestoga\Software Dev\AS1\images\ace.jpg"></Image>
+        </Button>
+        <Button Name="btnCard2" Grid.Row="1" Grid.Column="0" FontSize="40">
+            <Image Source="D:\Conestoga\Software Dev\AS1\images\king.jpg"></Image>
+        </Button>
+        <Button Name="btnCard3" Grid.Row="2" Grid.Column="0" FontSize="40">
+            <Image Source="D:\Conestoga\Software Dev\AS1\images\queen.jpg"></Image>
+        </Button>
+        <Button Name="btnCard4" Grid.Row="3" Grid.Column="0" FontSize="40">
+            <Image Source="D:\Conestoga\Software Dev\AS1\images\jack.jpg"></Image>
+        </Button>
+        <Button Name="btnCard5" Grid.Row="4" Grid.Column="0" FontSize="40">
+            <Image Source="D:\Conestoga\Software Dev\AS1\images\joker.jpg"></Image>
+        </Button>
+    </Grid>
+</Window>

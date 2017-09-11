@@ -1,0 +1,15 @@
+D:\Conestoga\Software Dev\SD_AS1_cardIdentifier\SD_AS1_cardIdentifier\obj\Debug\SD_AS1_cardIdentifier.csprojResolveAssemblyReference.cache
+D:\Conestoga\Software Dev\SD_AS1_cardIdentifier\SD_AS1_cardIdentifier\obj\Debug\MainWindow.g.cs
+D:\Conestoga\Software Dev\SD_AS1_cardIdentifier\SD_AS1_cardIdentifier\obj\Debug\App.g.cs
+D:\Conestoga\Software Dev\SD_AS1_cardIdentifier\SD_AS1_cardIdentifier\obj\Debug\SD_AS1_cardIdentifier_MarkupCompile.cache
+D:\Conestoga\Software Dev\SD_AS1_cardIdentifier\SD_AS1_cardIdentifier\obj\Debug\SD_AS1_cardIdentifier_MarkupCompile.lref
+D:\Conestoga\Software Dev\SD_AS1_cardIdentifier\SD_AS1_cardIdentifier\bin\Debug\SD_AS1_cardIdentifier.exe.config
+D:\Conestoga\Software Dev\SD_AS1_cardIdentifier\SD_AS1_cardIdentifier\bin\Debug\SD_AS1_cardIdentifier.exe
+D:\Conestoga\Software Dev\SD_AS1_cardIdentifier\SD_AS1_cardIdentifier\bin\Debug\SD_AS1_cardIdentifier.pdb
+D:\Conestoga\Software Dev\SD_AS1_cardIdentifier\SD_AS1_cardIdentifier\obj\Debug\MainWindow.baml
+D:\Conestoga\Software Dev\SD_AS1_cardIdentifier\SD_AS1_cardIdentifier\obj\Debug\SD_AS1_cardIdentifier.g.resources
+D:\Conestoga\Software Dev\SD_AS1_cardIdentifier\SD_AS1_cardIdentifier\obj\Debug\SD_AS1_cardIdentifier.Properties.Resources.resources
+D:\Conestoga\Software Dev\SD_AS1_cardIdentifier\SD_AS1_cardIdentifier\obj\Debug\SD_AS1_cardIdentifier.csproj.GenerateResource.Cache
+D:\Conestoga\Software Dev\SD_AS1_cardIdentifier\SD_AS1_cardIdentifier\obj\Debug\SD_AS1_cardIdentifier.csproj.CoreCompileInputs.cache
+D:\Conestoga\Software Dev\SD_AS1_cardIdentifier\SD_AS1_cardIdentifier\obj\Debug\SD_AS1_cardIdentifier.exe
+D:\Conestoga\Software Dev\SD_AS1_cardIdentifier\SD_AS1_cardIdentifier\obj\Debug\SD_AS1_cardIdentifier.pdb
