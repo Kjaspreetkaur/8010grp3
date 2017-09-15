@@ -1,0 +1,15 @@
+C:\Users\architsharma\source\repos\tempConversion\tempConversion\bin\Debug\tempConversion.exe.config
+C:\Users\architsharma\source\repos\tempConversion\tempConversion\bin\Debug\tempConversion.exe
+C:\Users\architsharma\source\repos\tempConversion\tempConversion\bin\Debug\tempConversion.pdb
+C:\Users\architsharma\source\repos\tempConversion\tempConversion\obj\Debug\tempConversion.csprojResolveAssemblyReference.cache
+C:\Users\architsharma\source\repos\tempConversion\tempConversion\obj\Debug\MainWindow.g.cs
+C:\Users\architsharma\source\repos\tempConversion\tempConversion\obj\Debug\App.g.cs
+C:\Users\architsharma\source\repos\tempConversion\tempConversion\obj\Debug\tempConversion_MarkupCompile.cache
+C:\Users\architsharma\source\repos\tempConversion\tempConversion\obj\Debug\tempConversion_MarkupCompile.lref
+C:\Users\architsharma\source\repos\tempConversion\tempConversion\obj\Debug\MainWindow.baml
+C:\Users\architsharma\source\repos\tempConversion\tempConversion\obj\Debug\tempConversion.g.resources
+C:\Users\architsharma\source\repos\tempConversion\tempConversion\obj\Debug\tempConversion.Properties.Resources.resources
+C:\Users\architsharma\source\repos\tempConversion\tempConversion\obj\Debug\tempConversion.csproj.GenerateResource.Cache
+C:\Users\architsharma\source\repos\tempConversion\tempConversion\obj\Debug\tempConversion.csproj.CoreCompileInputs.cache
+C:\Users\architsharma\source\repos\tempConversion\tempConversion\obj\Debug\tempConversion.exe
+C:\Users\architsharma\source\repos\tempConversion\tempConversion\obj\Debug\tempConversion.pdb
