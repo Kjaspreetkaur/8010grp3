@@ -13,3 +13,18 @@ C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Assignment 2\TempCnvrsnSoln\
 C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Assignment 2\TempCnvrsnSoln\TempCnvrsnSoln\obj\Debug\TempCnvrsnSoln.csproj.CoreCompileInputs.cache
 C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Assignment 2\TempCnvrsnSoln\TempCnvrsnSoln\obj\Debug\TempCnvrsnSoln.exe
 C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Assignment 2\TempCnvrsnSoln\TempCnvrsnSoln\obj\Debug\TempCnvrsnSoln.pdb
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\andrew\Assignment2\TempCnvrsnSoln\TempCnvrsnSoln\bin\Debug\TempCnvrsnSoln.exe.config
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\andrew\Assignment2\TempCnvrsnSoln\TempCnvrsnSoln\bin\Debug\TempCnvrsnSoln.exe
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\andrew\Assignment2\TempCnvrsnSoln\TempCnvrsnSoln\bin\Debug\TempCnvrsnSoln.pdb
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\andrew\Assignment2\TempCnvrsnSoln\TempCnvrsnSoln\obj\Debug\TempCnvrsnSoln.csprojResolveAssemblyReference.cache
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\andrew\Assignment2\TempCnvrsnSoln\TempCnvrsnSoln\obj\Debug\MainWindow.g.cs
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\andrew\Assignment2\TempCnvrsnSoln\TempCnvrsnSoln\obj\Debug\App.g.cs
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\andrew\Assignment2\TempCnvrsnSoln\TempCnvrsnSoln\obj\Debug\TempCnvrsnSoln_MarkupCompile.cache
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\andrew\Assignment2\TempCnvrsnSoln\TempCnvrsnSoln\obj\Debug\TempCnvrsnSoln_MarkupCompile.lref
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\andrew\Assignment2\TempCnvrsnSoln\TempCnvrsnSoln\obj\Debug\MainWindow.baml
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\andrew\Assignment2\TempCnvrsnSoln\TempCnvrsnSoln\obj\Debug\TempCnvrsnSoln.g.resources
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\andrew\Assignment2\TempCnvrsnSoln\TempCnvrsnSoln\obj\Debug\TempCnvrsnSoln.Properties.Resources.resources
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\andrew\Assignment2\TempCnvrsnSoln\TempCnvrsnSoln\obj\Debug\TempCnvrsnSoln.csproj.GenerateResource.Cache
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\andrew\Assignment2\TempCnvrsnSoln\TempCnvrsnSoln\obj\Debug\TempCnvrsnSoln.csproj.CoreCompileInputs.cache
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\andrew\Assignment2\TempCnvrsnSoln\TempCnvrsnSoln\obj\Debug\TempCnvrsnSoln.exe
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\andrew\Assignment2\TempCnvrsnSoln\TempCnvrsnSoln\obj\Debug\TempCnvrsnSoln.pdb
