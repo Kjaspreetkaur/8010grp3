@@ -1,0 +1,64 @@
+﻿    <!--Temperature Conversion-->
+    <!--Assignment 2 - Group 3-->
+    <!--Andrew Huynh 8113730-->
+    <Window x:Class="TempCnvrsnSoln.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TempCnvrsnSoln"
+        mc:Ignorable="d"
+        Title="Temperature Conversion" Height="350" Width="525">
+    <Grid Background="DarkGray">
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+            <TextBox Name="tbxCelcius" Grid.Column="0" FontSize="20" Margin="30,20,0,20"/>
+            <Label Content="=" Grid.Column="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="40" />
+            <Label Name="lblCtoF" Grid.Column="2" FontSize="20" Margin="0,20,30,20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="Black" BorderThickness="1" Background="White"/>
+        </Grid>
+        
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Name="btnCtoF" Content="Celcius to Fahrenheit" FontSize="20" Margin="20,20,30,20" Click="btnCtoF_Click"/>
+            <Button Name="btnResetCtoF" Grid.Column="1" Content="Reset" FontSize="20" Margin="60,20,60,20" Click="btnResetCtoF_Click"/>
+        </Grid>
+        
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+            <TextBox Name="tbxFahrenheit" Grid.Column="0" FontSize="20" Margin="30,20,0,20"/>
+            <Label Content="=" Grid.Column="1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="40" />
+            <Label Name="lblFtoC" Grid.Column="2" FontSize="20" Margin="0,20,30,20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" BorderBrush="Black" BorderThickness="1" Background="White"/>
+        </Grid>
+        
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Name="btnFtoC" Content="Fahrenheit to Celcius" FontSize="20" Margin="20,20,30,20" Click="btnFtoC_Click"/>
+            <Button Name="btnResetFtoC" Grid.Column="1" Content="Reset" FontSize="20" Margin="60,20,60,20" Click="btnResetFtoC_Click"/>
+        </Grid>
+        
+    </Grid>
+</Window>
+
+    
