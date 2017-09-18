@@ -1,4 +1,13 @@
-﻿using System.Windows;
+﻿/** Temperature Conversion-A2-GRP3
+ * Archit A.    8024168
+ * Parthik M.   8050213
+ * Jerome S.    8055907
+ * Jaspreet K.  8051666
+ * Andrew H.    8113730
+ * Bhumi S.     8022584
+ */
+
+using System.Windows;
 using System.Windows.Media;
 
 namespace tempConversion
