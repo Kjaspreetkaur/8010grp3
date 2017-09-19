@@ -13,7 +13,7 @@ using System.Windows.Media;
 namespace tempConversion
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Temperature conversion application logic
     /// </summary>
     public partial class MainWindow : Window
     {
@@ -22,6 +22,7 @@ namespace tempConversion
             InitializeComponent();
         }
 
+        //celsius temperature conversion
         private void convert_to_celsius(object sender, RoutedEventArgs e)
         {
             try
@@ -43,6 +44,7 @@ namespace tempConversion
             }
         }
 
+        //fahrenheit temperature conversion
         private void convert_to_fahrenheit(object sender, RoutedEventArgs e)
         {
             try
@@ -64,6 +66,7 @@ namespace tempConversion
             }
         }
 
+        //set height of the thermometer and adjust font and colours
         private void fill_thermometer(double celsius)
         {
             if (celsius > 100 || celsius <= -100)
@@ -108,6 +111,7 @@ namespace tempConversion
 
         }
 
+        //resetting celsius conversion tab
         private void reset_convert_to_celsius()
         {
             lblConvertedC.Content = "Enter and Click!";
@@ -115,6 +119,7 @@ namespace tempConversion
             lblOriginalF.Content = tbxF.Text = tbxC.Text = string.Empty;
         }
 
+        //resetting fahrenheit conversion tab
         private void reset_convert_to_fahrenheit()
         {
             lblConvertedF.Content = "Enter and Click!";
