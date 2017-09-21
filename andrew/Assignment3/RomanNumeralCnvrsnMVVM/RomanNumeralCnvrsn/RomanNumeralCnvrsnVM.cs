@@ -1,15 +1,15 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
-//undo has gone too far
+
 namespace RomanNumeralCnvrsn
 {
     public class RomanNumeralCnvrsnVM : INotifyPropertyChanged
     {
 
 
-        private int _integerNumeral = 0;
-        private string _finalRomanNumeral = "";
+        private int _integerNumeral;
+        private string _finalRomanNumeral;
 
         public int integerNumeral
         {
@@ -62,6 +62,7 @@ namespace RomanNumeralCnvrsn
                 romanNumeral = romanNumeral + "XL";
                 integerNumeral = integerNumeral - 40;
             }
+            //repeatedly add smaller building blocks of the numerals
             while (integerNumeral >= 10)
             {
                 romanNumeral = romanNumeral + "X";
@@ -95,10 +96,8 @@ namespace RomanNumeralCnvrsn
 
         private void NotifyPropertyChanged([CallerMemberName] String propertyName = "")
         {
-            if (PropertyChanged != null) //somebody is listening? yes the xaml
+            if (PropertyChanged != null)
             {
-                //call them, and tell them something has been changed
-                //we pass in the name of the property that is changed
                 PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
             }
         }
