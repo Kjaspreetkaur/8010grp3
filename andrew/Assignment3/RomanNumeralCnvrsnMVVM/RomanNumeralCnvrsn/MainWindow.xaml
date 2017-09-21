@@ -1,0 +1,36 @@
+﻿<Window x:Class="RomanNumeralCnvrsn.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RomanNumeralCnvrsn"
+        mc:Ignorable="d"
+        Title="Roman Numeral Converter" Height="400" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Enter an Integer from 1 - 100" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18"/>
+            <TextBox Name="tbxGetInt" Grid.Column="1" VerticalAlignment="Center" FontSize="18"/>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Name="btnConvert" Content="Convert" Click="btnConvert_Click"/>
+            <Button Name="btnReset" Grid.Column="1" Content="Reset" Click="btnReset_Click"/>
+        </Grid>
+        <Image Name="imgTitus" Grid.Row="2" Source="/images/titus.jpg" Stretch="UniformToFill" Visibility="Hidden"/>
+        <Label Name="lblRoman" Content="{Binding finalString}" Grid.Row="3" FontSize="24" FontFamily="Times New Roman"  HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    </Grid>
+</Window>
