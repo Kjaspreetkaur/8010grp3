@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace tempConversion.Properties
+namespace numberConversion.Properties
 {
 
 

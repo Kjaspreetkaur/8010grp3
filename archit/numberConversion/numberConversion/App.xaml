@@ -1,7 +1,7 @@
-﻿<Application x:Class="tempConversion.App"
+﻿<Application x:Class="numberConversion.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:tempConversion"
+             xmlns:local="clr-namespace:numberConversion"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

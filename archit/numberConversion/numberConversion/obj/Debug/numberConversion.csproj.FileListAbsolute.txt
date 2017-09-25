@@ -1,0 +1,15 @@
+C:\Users\architsharma\source\repos\numberConversion\numberConversion\bin\Debug\numberConversion.exe.config
+C:\Users\architsharma\source\repos\numberConversion\numberConversion\bin\Debug\numberConversion.exe
+C:\Users\architsharma\source\repos\numberConversion\numberConversion\bin\Debug\numberConversion.pdb
+C:\Users\architsharma\source\repos\numberConversion\numberConversion\obj\Debug\numberConversion.csprojResolveAssemblyReference.cache
+C:\Users\architsharma\source\repos\numberConversion\numberConversion\obj\Debug\MainWindow.g.cs
+C:\Users\architsharma\source\repos\numberConversion\numberConversion\obj\Debug\App.g.cs
+C:\Users\architsharma\source\repos\numberConversion\numberConversion\obj\Debug\numberConversion_MarkupCompile.cache
+C:\Users\architsharma\source\repos\numberConversion\numberConversion\obj\Debug\numberConversion_MarkupCompile.lref
+C:\Users\architsharma\source\repos\numberConversion\numberConversion\obj\Debug\MainWindow.baml
+C:\Users\architsharma\source\repos\numberConversion\numberConversion\obj\Debug\numberConversion.g.resources
+C:\Users\architsharma\source\repos\numberConversion\numberConversion\obj\Debug\numberConversion.Properties.Resources.resources
+C:\Users\architsharma\source\repos\numberConversion\numberConversion\obj\Debug\numberConversion.csproj.GenerateResource.Cache
+C:\Users\architsharma\source\repos\numberConversion\numberConversion\obj\Debug\numberConversion.csproj.CoreCompileInputs.cache
+C:\Users\architsharma\source\repos\numberConversion\numberConversion\obj\Debug\numberConversion.exe
+C:\Users\architsharma\source\repos\numberConversion\numberConversion\obj\Debug\numberConversion.pdb
