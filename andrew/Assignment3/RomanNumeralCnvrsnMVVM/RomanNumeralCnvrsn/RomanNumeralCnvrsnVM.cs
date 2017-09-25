@@ -1,4 +1,12 @@
-﻿using System;
+﻿/** Roman Numeral Conversion - A3 - GRP3
+ * Archit A.    8024168
+ * Parthik M.   8050213
+ * Jerome S.    8055907
+ * Jaspreet K.  8051666
+ * Andrew H.    8113730
+ * Bhumi S.     8022584
+ */
+using System;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
@@ -8,8 +16,8 @@ namespace RomanNumeralCnvrsn
     {
 
 
-        private int _integerNumeral;
-        private string _finalRomanNumeral;
+        private int _integerNumeral = 0;
+        private string _finalRomanNumeral = "";
 
         public int integerNumeral
         {
@@ -20,7 +28,7 @@ namespace RomanNumeralCnvrsn
 
             set
             {
-                _integerNumeral = value; NotifyPropertyChanged(); //notify XAML that the value has been changed
+                _integerNumeral = value; NotifyPropertyChanged();
             }
         }
 
@@ -36,62 +44,58 @@ namespace RomanNumeralCnvrsn
             }
         }
 
-        public string Convert(int numeral)
+        public void Convert()
         {
-            
-            int integerNumeral = numeral;
-            string romanNumeral = "";
-
+            //just have to do 40-100 once because those are the largest in this range
             if (integerNumeral >= 100)
             {
-                romanNumeral = romanNumeral + "C";
+                finalString = finalString + "C";
                 integerNumeral = integerNumeral - 100;
             }
             if (integerNumeral >= 90)
             {
-                romanNumeral = romanNumeral + "XC";
+                finalString = finalString + "XC";
                 integerNumeral = integerNumeral - 90;
             }
             if (integerNumeral >= 50)
             {
-                romanNumeral = romanNumeral + "L";
+                finalString = finalString + "L";
                 integerNumeral = integerNumeral - 50;
             }
             if (integerNumeral >= 40)
             {
-                romanNumeral = romanNumeral + "XL";
+                finalString = finalString + "XL";
                 integerNumeral = integerNumeral - 40;
             }
-            //repeatedly add smaller building blocks of the numerals
+            // Want to repeatedly add the building blocks of smaller numerals
             while (integerNumeral >= 10)
             {
-                romanNumeral = romanNumeral + "X";
+                finalString = finalString + "X";
                 integerNumeral = integerNumeral - 10;
             }
             while (integerNumeral >= 9)
             {
-                romanNumeral = romanNumeral + "IX";
+                finalString = finalString + "IX";
                 integerNumeral = integerNumeral - 9;
             }
             while (integerNumeral >= 5)
             {
-                romanNumeral = romanNumeral + "V";
+                finalString = finalString + "V";
                 integerNumeral = integerNumeral - 5;
             }
             while (integerNumeral >= 4)
             {
-                romanNumeral = romanNumeral + "IV";
+                finalString = finalString + "IV";
                 integerNumeral = integerNumeral - 4;
             }
             while (integerNumeral >= 1)
             {
-                romanNumeral = romanNumeral + "I";
+                finalString = finalString + "I";
                 integerNumeral = integerNumeral - 1;
             }
-            return romanNumeral;
         }
         
-
+        //implement the interface
         public event PropertyChangedEventHandler PropertyChanged;
 
         private void NotifyPropertyChanged([CallerMemberName] String propertyName = "")
