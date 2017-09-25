@@ -1,0 +1,30 @@
+C:\Users\Jerome\source\repos\RomanNumConversion\RomanNumConversion\bin\Debug\RomanNumConversion.exe.config
+C:\Users\Jerome\source\repos\RomanNumConversion\RomanNumConversion\bin\Debug\RomanNumConversion.exe
+C:\Users\Jerome\source\repos\RomanNumConversion\RomanNumConversion\bin\Debug\RomanNumConversion.pdb
+C:\Users\Jerome\source\repos\RomanNumConversion\RomanNumConversion\obj\Debug\RomanNumConversion.csprojResolveAssemblyReference.cache
+C:\Users\Jerome\source\repos\RomanNumConversion\RomanNumConversion\obj\Debug\MainWindow.g.cs
+C:\Users\Jerome\source\repos\RomanNumConversion\RomanNumConversion\obj\Debug\App.g.cs
+C:\Users\Jerome\source\repos\RomanNumConversion\RomanNumConversion\obj\Debug\RomanNumConversion_MarkupCompile.cache
+C:\Users\Jerome\source\repos\RomanNumConversion\RomanNumConversion\obj\Debug\RomanNumConversion_MarkupCompile.lref
+C:\Users\Jerome\source\repos\RomanNumConversion\RomanNumConversion\obj\Debug\MainWindow.baml
+C:\Users\Jerome\source\repos\RomanNumConversion\RomanNumConversion\obj\Debug\RomanNumConversion.g.resources
+C:\Users\Jerome\source\repos\RomanNumConversion\RomanNumConversion\obj\Debug\RomanNumConversion.Properties.Resources.resources
+C:\Users\Jerome\source\repos\RomanNumConversion\RomanNumConversion\obj\Debug\RomanNumConversion.csproj.GenerateResource.Cache
+C:\Users\Jerome\source\repos\RomanNumConversion\RomanNumConversion\obj\Debug\RomanNumConversion.csproj.CoreCompileInputs.cache
+C:\Users\Jerome\source\repos\RomanNumConversion\RomanNumConversion\obj\Debug\RomanNumConversion.exe
+C:\Users\Jerome\source\repos\RomanNumConversion\RomanNumConversion\obj\Debug\RomanNumConversion.pdb
+D:\Conestoga\Software Dev\AS3_RomanNumeralConversion\RomanNumConversion\bin\Debug\RomanNumConversion.exe.config
+D:\Conestoga\Software Dev\AS3_RomanNumeralConversion\RomanNumConversion\bin\Debug\RomanNumConversion.exe
+D:\Conestoga\Software Dev\AS3_RomanNumeralConversion\RomanNumConversion\bin\Debug\RomanNumConversion.pdb
+D:\Conestoga\Software Dev\AS3_RomanNumeralConversion\RomanNumConversion\obj\Debug\RomanNumConversion.csprojResolveAssemblyReference.cache
+D:\Conestoga\Software Dev\AS3_RomanNumeralConversion\RomanNumConversion\obj\Debug\MainWindow.g.cs
+D:\Conestoga\Software Dev\AS3_RomanNumeralConversion\RomanNumConversion\obj\Debug\App.g.cs
+D:\Conestoga\Software Dev\AS3_RomanNumeralConversion\RomanNumConversion\obj\Debug\RomanNumConversion_MarkupCompile.cache
+D:\Conestoga\Software Dev\AS3_RomanNumeralConversion\RomanNumConversion\obj\Debug\RomanNumConversion_MarkupCompile.lref
+D:\Conestoga\Software Dev\AS3_RomanNumeralConversion\RomanNumConversion\obj\Debug\MainWindow.baml
+D:\Conestoga\Software Dev\AS3_RomanNumeralConversion\RomanNumConversion\obj\Debug\RomanNumConversion.g.resources
+D:\Conestoga\Software Dev\AS3_RomanNumeralConversion\RomanNumConversion\obj\Debug\RomanNumConversion.Properties.Resources.resources
+D:\Conestoga\Software Dev\AS3_RomanNumeralConversion\RomanNumConversion\obj\Debug\RomanNumConversion.csproj.GenerateResource.Cache
+D:\Conestoga\Software Dev\AS3_RomanNumeralConversion\RomanNumConversion\obj\Debug\RomanNumConversion.csproj.CoreCompileInputs.cache
+D:\Conestoga\Software Dev\AS3_RomanNumeralConversion\RomanNumConversion\obj\Debug\RomanNumConversion.exe
+D:\Conestoga\Software Dev\AS3_RomanNumeralConversion\RomanNumConversion\obj\Debug\RomanNumConversion.pdb
