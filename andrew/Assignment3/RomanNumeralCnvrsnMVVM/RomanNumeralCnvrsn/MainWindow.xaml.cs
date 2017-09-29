@@ -65,8 +65,8 @@ namespace RomanNumeralCnvrsn
 
         private void btnReset_Click(object sender, RoutedEventArgs e)
         {
-            lblRoman.Content = "";
             tbxGetInt.Text = "";
+            rmcVM.finalString = "";
             imgTitus.Visibility = Visibility.Hidden;
         }
     }

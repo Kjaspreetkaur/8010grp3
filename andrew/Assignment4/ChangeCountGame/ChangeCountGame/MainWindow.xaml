@@ -1,0 +1,72 @@
+﻿<Window x:Class="ChangeCountGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChangeCountGame"
+        mc:Ignorable="d"
+        Title="Change Counter Game" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <!--Responsible for displaying messages-->
+        <Label Name="lblMessage" Grid.Row="0" Content="{Binding Message}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="36"/>
+       
+        <!--User Input-->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <!--Enter Quarter Amount-->
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBox Name="TbxQuarters" Margin="5" KeyDown="Tbx_Keydown" Text="{Binding QuarterQuant, UpdateSourceTrigger=PropertyChanged}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="26"/>
+                <Label Grid.Row="1" Content="Quarter(s)" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
+            </Grid>
+
+            <!--Enter Dime Amount-->
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBox Name="TbxDimes" Margin="5" KeyDown="Tbx_Keydown" Text="{Binding DimeQuant, UpdateSourceTrigger=PropertyChanged}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="26"/>
+                <Label Grid.Row="1" Content="Dime(s)" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
+            </Grid>
+
+            <!--Enter Nickle Amount-->
+            <Grid Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBox Name="TbxNickles" Margin="5" KeyDown="Tbx_Keydown" Text="{Binding NickleQuant, UpdateSourceTrigger=PropertyChanged}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="26"/>
+                <Label Grid.Row="1" Content="Nickle(s)" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
+            </Grid>
+
+            <!--Enter Penny Amount-->
+            <Grid Grid.Column="3">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <TextBox Name="TbxPennies" Margin="5" KeyDown="Tbx_Keydown" Text="{Binding PennyQuant, UpdateSourceTrigger=PropertyChanged}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="26"/>
+                <Label Grid.Row="1" Content="Penny(ies)" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="16"/>
+            </Grid>
+        </Grid>
+        
+        <!--Reset button-->
+        <Button Name="BtnReset" Grid.Row="2" Content="Reset" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="36" Click="BtnReset_Click" Margin="150 20" Padding="5"/>
+    </Grid>
+</Window>

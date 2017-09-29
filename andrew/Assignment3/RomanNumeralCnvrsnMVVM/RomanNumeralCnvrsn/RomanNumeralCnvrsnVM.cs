@@ -46,51 +46,51 @@ namespace RomanNumeralCnvrsn
 
         public void Convert()
         {
-            //just have to do 40-100 once because those are the largest in this range
+            // Build the bigger numeral blocks
             if (integerNumeral >= 100)
             {
-                finalString = finalString + "C";
+                finalString += "C";
                 integerNumeral = integerNumeral - 100;
             }
             if (integerNumeral >= 90)
             {
-                finalString = finalString + "XC";
+                finalString += "XC";
                 integerNumeral = integerNumeral - 90;
             }
             if (integerNumeral >= 50)
             {
-                finalString = finalString + "L";
+                finalString += "L";
                 integerNumeral = integerNumeral - 50;
             }
             if (integerNumeral >= 40)
             {
-                finalString = finalString + "XL";
+                finalString += "XL";
                 integerNumeral = integerNumeral - 40;
             }
             // Want to repeatedly add the building blocks of smaller numerals
             while (integerNumeral >= 10)
             {
-                finalString = finalString + "X";
+                finalString += "X";
                 integerNumeral = integerNumeral - 10;
             }
             while (integerNumeral >= 9)
             {
-                finalString = finalString + "IX";
+                finalString += "IX";
                 integerNumeral = integerNumeral - 9;
             }
             while (integerNumeral >= 5)
             {
-                finalString = finalString + "V";
+                finalString += "V";
                 integerNumeral = integerNumeral - 5;
             }
             while (integerNumeral >= 4)
             {
-                finalString = finalString + "IV";
+                finalString += "IV";
                 integerNumeral = integerNumeral - 4;
             }
             while (integerNumeral >= 1)
             {
-                finalString = finalString + "I";
+                finalString += "I";
                 integerNumeral = integerNumeral - 1;
             }
         }
