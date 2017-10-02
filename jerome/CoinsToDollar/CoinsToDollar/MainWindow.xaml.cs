@@ -1,4 +1,12 @@
-﻿using System;
+﻿//Coins TO Dollar A3 Group 3
+//Andrew 8113730
+//Archit A. 8024168
+//Parthik M. 8050213
+//Bhumi S. 8022584
+//Jaspreet K. 8051666
+//Jerome S. 8055907
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -64,7 +72,10 @@ namespace CoinsToDollar
 
             Match m = Regex.Match(this.tbxPenny.Text, pattern);
             if (!m.Success)
+            {
                 this.tbxPenny.Text = "";
+                cointotal.Penny = 0;
+            }
         }
         //Nickel textbox
         private void tbxNickel_TextChanged(object sender, TextChangedEventArgs e)
@@ -73,49 +84,55 @@ namespace CoinsToDollar
 
             Match m = Regex.Match(this.tbxNickel.Text, pattern);
             if (!m.Success)
+            {
                 this.tbxNickel.Text = "";
+                cointotal.Nickel = 0;
+            }
         }
         //Dime textbox
         private void tbxDime_TextChanged(object sender, TextChangedEventArgs e)
         {
             clearLblMsgs();
-
+           
             Match m = Regex.Match(this.tbxDime.Text, pattern);
             if (!m.Success)
+            {
                 this.tbxDime.Text = "";
+                cointotal.Dime = 0;
+
+            }
         }
         //Quarter textbox
         private void tbxQrtr_TextChanged(object sender, TextChangedEventArgs e)
         {
             clearLblMsgs();
-
+            
             Match m = Regex.Match(this.tbxQrtr.Text, pattern);
             if (!m.Success)
+            {
                 this.tbxQrtr.Text = "";
+                cointotal.Quarter = 0;
+            }
         }
 
         private void btnAdd_Click(object sender, RoutedEventArgs e)
         {   
-            if (cointotal.Penny > 0 && cointotal.Dime > 0 && cointotal.Nickel > 0 && cointotal.Quarter > 0)
+            cointotal.AddCoins();
+            if (cointotal.DollarTotal != 1)
             {
-                cointotal.AddCoins();
-                if (cointotal.DollarTotal != 1)
-                {
-                    if (cointotal.DollarTotal > 1)
-                        lblValidtnMsg.Content = "Total is more than $1. Try again!";
-                    else
-                        lblValidtnMsg.Content = "Total is less than $1. Try again!";
-                }
+                if (cointotal.DollarTotal > 1)
+                    lblValidtnMsg.Content = "Total is more than $1. Try again!";
                 else
-                {
-                    lblValidtnMsg.Content = "Total for all coins is $1.";
-                    lblWinner.Visibility = System.Windows.Visibility.Visible;
-                }
+                    lblValidtnMsg.Content = "Total is less than $1. Try again!";
             }
             else
-                lblValidtnMsg.Content = "All coin type must have a value!";
+            {
+                lblWinner.Visibility = System.Windows.Visibility.Visible;
+                lblValidtnMsg.Content = "Total for all coins is $1.";
+            }
         }
 
+        //Initialize the textboxes to 0 and call function to clear all messages
         private void btnReset_Click(object sender, RoutedEventArgs e)
         {
             cointotal.Penny = 0;
@@ -131,6 +148,7 @@ namespace CoinsToDollar
         {
             lblValidtnMsg.Content = "";
             lblWinner.Visibility = System.Windows.Visibility.Hidden;
+            cointotal.DollarTotal = 0;
         }
 
         //the following codes will select all text in the textbox by either tabbing or mouse-click
@@ -147,7 +165,6 @@ namespace CoinsToDollar
         {
             tbxDime.SelectAll();
         }
-
         private void tbxDime_GotMouseCapture(object sender, MouseEventArgs e)
         {
             tbxDime.SelectAll();
@@ -157,7 +174,6 @@ namespace CoinsToDollar
         {
             tbxNickel.SelectAll();
         }
-
         private void tbxNickel_GotMouseCapture(object sender, MouseEventArgs e)
         {
             tbxNickel.SelectAll();
@@ -167,7 +183,6 @@ namespace CoinsToDollar
         {
             tbxQrtr.SelectAll();
         }
-
         private void tbxQrtr_GotMouseCapture(object sender, MouseEventArgs e)
         {
             tbxQrtr.SelectAll();

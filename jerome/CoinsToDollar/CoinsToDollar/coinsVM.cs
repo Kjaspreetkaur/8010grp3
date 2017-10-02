@@ -1,4 +1,12 @@
-﻿using System;
+﻿//Coins TO Dollar A3 Group 3
+//Andrew 8113730
+//Archit A. 8024168
+//Parthik M. 8050213
+//Bhumi S. 8022584
+//Jaspreet K. 8051666
+//Jerome S. 8055907
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
