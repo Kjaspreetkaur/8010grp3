@@ -13,3 +13,18 @@ D:\Conestoga\Software Dev\AS4_CoinsToDollar\CoinsToDollar\CoinsToDollar\obj\Debu
 D:\Conestoga\Software Dev\AS4_CoinsToDollar\CoinsToDollar\CoinsToDollar\obj\Debug\CoinsToDollar.csproj.CoreCompileInputs.cache
 D:\Conestoga\Software Dev\AS4_CoinsToDollar\CoinsToDollar\CoinsToDollar\obj\Debug\CoinsToDollar.exe
 D:\Conestoga\Software Dev\AS4_CoinsToDollar\CoinsToDollar\CoinsToDollar\obj\Debug\CoinsToDollar.pdb
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\jerome\CoinsToDollar\CoinsToDollar\bin\Debug\CoinsToDollar.exe.config
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\jerome\CoinsToDollar\CoinsToDollar\bin\Debug\CoinsToDollar.exe
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\jerome\CoinsToDollar\CoinsToDollar\bin\Debug\CoinsToDollar.pdb
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\jerome\CoinsToDollar\CoinsToDollar\obj\Debug\CoinsToDollar.csprojResolveAssemblyReference.cache
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\jerome\CoinsToDollar\CoinsToDollar\obj\Debug\MainWindow.g.cs
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\jerome\CoinsToDollar\CoinsToDollar\obj\Debug\App.g.cs
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\jerome\CoinsToDollar\CoinsToDollar\obj\Debug\CoinsToDollar_MarkupCompile.cache
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\jerome\CoinsToDollar\CoinsToDollar\obj\Debug\CoinsToDollar_MarkupCompile.lref
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\jerome\CoinsToDollar\CoinsToDollar\obj\Debug\MainWindow.baml
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\jerome\CoinsToDollar\CoinsToDollar\obj\Debug\CoinsToDollar.g.resources
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\jerome\CoinsToDollar\CoinsToDollar\obj\Debug\CoinsToDollar.Properties.Resources.resources
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\jerome\CoinsToDollar\CoinsToDollar\obj\Debug\CoinsToDollar.csproj.GenerateResource.Cache
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\jerome\CoinsToDollar\CoinsToDollar\obj\Debug\CoinsToDollar.csproj.CoreCompileInputs.cache
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\jerome\CoinsToDollar\CoinsToDollar\obj\Debug\CoinsToDollar.exe
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\jerome\CoinsToDollar\CoinsToDollar\obj\Debug\CoinsToDollar.pdb
