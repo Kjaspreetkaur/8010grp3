@@ -13,3 +13,18 @@ C:\Users\architsharma\source\repos\DiceRoll\DiceRoll\obj\Debug\DiceRoll.csproj.G
 C:\Users\architsharma\source\repos\DiceRoll\DiceRoll\obj\Debug\DiceRoll.csproj.CoreCompileInputs.cache
 C:\Users\architsharma\source\repos\DiceRoll\DiceRoll\obj\Debug\DiceRoll.exe
 C:\Users\architsharma\source\repos\DiceRoll\DiceRoll\obj\Debug\DiceRoll.pdb
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\DiceRoll\DiceRoll\bin\Debug\DiceRoll.exe.config
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\DiceRoll\DiceRoll\bin\Debug\DiceRoll.exe
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\DiceRoll\DiceRoll\bin\Debug\DiceRoll.pdb
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\DiceRoll\DiceRoll\obj\Debug\DiceRoll.csprojResolveAssemblyReference.cache
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\DiceRoll\DiceRoll\obj\Debug\MainWindow.g.cs
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\DiceRoll\DiceRoll\obj\Debug\App.g.cs
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\DiceRoll\DiceRoll\obj\Debug\DiceRoll_MarkupCompile.cache
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\DiceRoll\DiceRoll\obj\Debug\DiceRoll_MarkupCompile.lref
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\DiceRoll\DiceRoll\obj\Debug\MainWindow.baml
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\DiceRoll\DiceRoll\obj\Debug\DiceRoll.g.resources
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\DiceRoll\DiceRoll\obj\Debug\DiceRoll.Properties.Resources.resources
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\DiceRoll\DiceRoll\obj\Debug\DiceRoll.csproj.GenerateResource.Cache
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\DiceRoll\DiceRoll\obj\Debug\DiceRoll.csproj.CoreCompileInputs.cache
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\DiceRoll\DiceRoll\obj\Debug\DiceRoll.exe
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Group3\archit\DiceRoll\DiceRoll\obj\Debug\DiceRoll.pdb
