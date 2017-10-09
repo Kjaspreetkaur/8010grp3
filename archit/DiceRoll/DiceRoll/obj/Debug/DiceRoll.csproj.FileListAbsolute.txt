@@ -1,0 +1,15 @@
+C:\Users\architsharma\source\repos\DiceRoll\DiceRoll\obj\Debug\DiceRoll.csprojResolveAssemblyReference.cache
+C:\Users\architsharma\source\repos\DiceRoll\DiceRoll\obj\Debug\MainWindow.g.cs
+C:\Users\architsharma\source\repos\DiceRoll\DiceRoll\obj\Debug\App.g.cs
+C:\Users\architsharma\source\repos\DiceRoll\DiceRoll\obj\Debug\DiceRoll_MarkupCompile.cache
+C:\Users\architsharma\source\repos\DiceRoll\DiceRoll\obj\Debug\DiceRoll_MarkupCompile.lref
+C:\Users\architsharma\source\repos\DiceRoll\DiceRoll\bin\Debug\DiceRoll.exe.config
+C:\Users\architsharma\source\repos\DiceRoll\DiceRoll\bin\Debug\DiceRoll.exe
+C:\Users\architsharma\source\repos\DiceRoll\DiceRoll\bin\Debug\DiceRoll.pdb
+C:\Users\architsharma\source\repos\DiceRoll\DiceRoll\obj\Debug\MainWindow.baml
+C:\Users\architsharma\source\repos\DiceRoll\DiceRoll\obj\Debug\DiceRoll.g.resources
+C:\Users\architsharma\source\repos\DiceRoll\DiceRoll\obj\Debug\DiceRoll.Properties.Resources.resources
+C:\Users\architsharma\source\repos\DiceRoll\DiceRoll\obj\Debug\DiceRoll.csproj.GenerateResource.Cache
+C:\Users\architsharma\source\repos\DiceRoll\DiceRoll\obj\Debug\DiceRoll.csproj.CoreCompileInputs.cache
+C:\Users\architsharma\source\repos\DiceRoll\DiceRoll\obj\Debug\DiceRoll.exe
+C:\Users\architsharma\source\repos\DiceRoll\DiceRoll\obj\Debug\DiceRoll.pdb
