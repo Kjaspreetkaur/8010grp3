@@ -18,6 +18,7 @@ namespace DiceRoll
         const string IMG_EXT = ".bmp";
         const string IMG_PATH = "Images/Die";
         const string DIR_NAME = "RollData";
+        const string FILE_NAME = "/rollinfo.txt";
         const int RND_MIN = 1;
         const int RND_MAX = 7;
 
@@ -58,14 +59,17 @@ namespace DiceRoll
             string path = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
             string fullpath = System.IO.Path.Combine(path, DIR_NAME);
             Directory.CreateDirectory(fullpath);
-            File.AppendAllText(fullpath + "\\rollinfo.txt", DateTime.Now + "--> First: " + randomOne + " , Second: " + randomTwo + "\r\n");
+            File.AppendAllText(fullpath + FILE_NAME, DateTime.Now + "--> First: " + randomOne + " , Second: " + randomTwo + "\r\n");
         }
 
         public void ReadFromFile()
         {
             string path = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
             string fullpath = System.IO.Path.Combine(path, DIR_NAME);
-            TxtContent = File.ReadAllText(fullpath + "\\rollinfo.txt");
+            if (File.Exists(fullpath + FILE_NAME))
+                TxtContent = File.ReadAllText(fullpath + FILE_NAME);
+            else
+                TxtContent = "Nothing to Display";
         }
 
         #region PropertyChanged
