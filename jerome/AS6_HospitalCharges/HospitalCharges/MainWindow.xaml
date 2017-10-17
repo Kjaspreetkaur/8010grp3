@@ -1,11 +1,19 @@
-﻿<Window x:Class="HospitalCharges.MainWindow"
+﻿<!--Hospital Charges A6 GRP3
+ * Archit A.    8024168
+ * Parthik M.   8050213
+ * Jerome S.    8055907
+ * Jaspreet K.  8051666
+ * Andrew H.    8113730
+ * Bhumi S.     8022584-->
+
+    <Window x:Class="HospitalCharges.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HospitalCharges"
         mc:Ignorable="d"
-        Title="Patient Hospital Bill" Height="370" Width="930" Loaded="Window_Loaded">
+        Title="Patient Hospital Bill" Height="380" Width="930" Loaded="Window_Loaded">
     <Grid Background="LightGray">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
@@ -147,20 +155,19 @@
             <TextBlock Name="tblkRehabFees" Grid.Column="4" Text="{Binding Rehab, StringFormat=N2}" Height="32" Width="110"
                 FontSize="18" VerticalAlignment="Center" TextAlignment="Right" HorizontalAlignment="Left"/>
             <Border BorderBrush="#61738B" BorderThickness="0 0 0 1" Grid.Column="5">
-                <TextBlock Name="tblkMiscChgs" Grid.Column="5" Text="{Binding MiscCharges, StringFormat=N2}" Height="32" Width="110"
+            <TextBlock Name="tblkMiscChgs" Grid.Column="5" Text="{Binding MiscCharges, StringFormat=N2}" Height="32" Width="110"
                     FontSize="20" VerticalAlignment="Center" TextAlignment="Right" HorizontalAlignment="Left"/>
             </Border>
         </Grid>
         <Grid Grid.Row="7">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="230"/>
-                <ColumnDefinition Width="150"/>
-                <ColumnDefinition Width="130"/>
-                <ColumnDefinition Width="150"/>
-                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="390"/>
+                <ColumnDefinition Width="390"/>
                 <ColumnDefinition Width="150"/>
             </Grid.ColumnDefinitions>
-            <TextBlock Name="tblkTotalChgs" Grid.Column="5" Text="{Binding TotalCharges, StringFormat=C2}" Height="32" Width="110"
+            <TextBlock Grid.Column="1" Text="Total Hospital Charges" Height="32" Width="220" 
+                FontSize="20" VerticalAlignment="Center" TextAlignment="Right" HorizontalAlignment="Center"/>
+            <TextBlock Name="tblkTotalChgs" Grid.Column="2" Text="{Binding TotalCharges, StringFormat=C2}" Height="32" Width="110"
                 FontSize="20" VerticalAlignment="Center" TextAlignment="Right" HorizontalAlignment="Left"/>
         </Grid>
     </Grid>

@@ -1,4 +1,13 @@
-﻿using System;
+﻿/*Hospital Charges A6 GRP3
+ * Archit A.    8024168
+ * Parthik M.   8050213
+ * Jerome S.    8055907
+ * Jaspreet K.  8051666
+ * Andrew H.    8113730
+ * Bhumi S.     8022584
+*/
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

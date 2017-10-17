@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*Hospital Charges A6 GRP3
+ * Archit A.    8024168
+ * Parthik M.   8050213
+ * Jerome S.    8055907
+ * Jaspreet K.  8051666
+ * Andrew H.    8113730
+ * Bhumi S.     8022584
+*/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,10 +36,11 @@ namespace HospitalCharges
             DataContext = hospChargesVm;
         }
 
+        //Set initial values for Admission/Discharge Dates using current date
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            tblkAdmDate.Text = " " + DateTime.Now.ToString("yyyy-MM-dd");
-            tblkDischgDate.Text = " " + DateTime.Now.ToString("yyyy-MM-dd");
+            tblkAdmDate.Text = " " + DateTime.Today.ToString("yyyy-MM-dd");
+            tblkDischgDate.Text = " " + DateTime.Today.ToString("yyyy-MM-dd");
         }
 
         //Select text in textboxes using tab key
@@ -48,11 +57,11 @@ namespace HospitalCharges
         //Validate text entered in text boxes
         private void NumberValidationTextBox(object sender, TextCompositionEventArgs e)
         {
-            Regex regex = new Regex("[^0-9.-]");
+            Regex regex = new Regex("[^0-9]");
             e.Handled = regex.IsMatch(e.Text);
         }
 
-        //Perform calculation on current textbox 
+        //Perform actions while entering data on current textbox 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
             string tbxName = ((TextBox)sender).Name;
