@@ -1,0 +1,31 @@
+﻿<Window x:Class="WorldSeries.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WorldSeries"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="4*"/>
+            </Grid.RowDefinitions>
+            <Label Content="Select team" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <ListBox Grid.Row="1" FontSize="12" ItemsSource="{Binding ListOfTeams}" SelectedItem="{Binding SelectedTeam, UpdateSourceTrigger=PropertyChanged}" HorizontalContentAlignment="Left"/>
+        </Grid>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="4*"/>
+            </Grid.RowDefinitions>
+            <Label Content="Years Won" FontSize="20" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <ListBox Grid.Row="2" FontSize="12" ItemsSource="{Binding ListSeriesWon}" HorizontalContentAlignment="Left"/>
+        </Grid>
+    </Grid>
+</Window>
