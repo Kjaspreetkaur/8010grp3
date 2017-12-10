@@ -77,10 +77,6 @@ namespace WorldSeries
                 string currentLine;
                 while ((currentLine = sr.ReadLine()) != null)
                 {
-                    if (SelectedTeam == currentLine)
-                    {
-                        temp.Add(year.ToString());
-                    }
                     if (year == 1904 || year == 1994)
                     {
                         year++;
@@ -88,6 +84,10 @@ namespace WorldSeries
                     else
                     {
                         year++;
+                    }
+                    if (SelectedTeam == currentLine)
+                    {
+                        temp.Add(year.ToString());
                     }
                 }
             }

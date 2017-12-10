@@ -1,4 +1,4 @@
-﻿/** Hospital Charges A7 GRP3
+﻿/**World Series Champions A7 GRP3
  * Archit A.    8024168
  * Parthik M.   8050213
  * Jerome S.    8055907
