@@ -1,4 +1,12 @@
-﻿using System;
+﻿/** Assignment Week 9 - Email Address Book
+ * Archit A.    8024168
+ * Parthik M.   8050213
+ * Jerome S.    8055907
+ * Jaspreet K.  8051666
+ * Andrew H.    8113730
+ * Bhumi S.     8022584
+ */
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
@@ -6,6 +14,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace EmailAdrBook
 {
@@ -81,7 +90,7 @@ namespace EmailAdrBook
 
         public void PopulateSelection()
         {
-            Window1 Window = new Window1(PersonSelected, PersonEntryList);
+            NewWindow Window = new NewWindow(PersonSelected, PersonEntryList);
             Window.Show();
             Window.BringIntoView();
         }

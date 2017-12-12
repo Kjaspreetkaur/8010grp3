@@ -13,5 +13,5 @@ C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Assignment 8\EmailAdrBook\Em
 C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Assignment 8\EmailAdrBook\EmailAdrBook\obj\Debug\EmailAdrBook.csproj.CoreCompileInputs.cache
 C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Assignment 8\EmailAdrBook\EmailAdrBook\obj\Debug\EmailAdrBook.exe
 C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Assignment 8\EmailAdrBook\EmailAdrBook\obj\Debug\EmailAdrBook.pdb
-C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Assignment 8\EmailAdrBook\EmailAdrBook\obj\Debug\Window1.g.cs
-C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Assignment 8\EmailAdrBook\EmailAdrBook\obj\Debug\Window1.baml
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Assignment 8\EmailAdrBook\EmailAdrBook\obj\Debug\NewWindow.g.cs
+C:\Users\Beargator\Documents\School\PROG8010 - [C#]\Assignment 8\EmailAdrBook\EmailAdrBook\obj\Debug\NewWindow.baml
