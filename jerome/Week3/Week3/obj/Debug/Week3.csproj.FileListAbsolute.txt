@@ -1,0 +1,15 @@
+D:\Conestoga\Software Dev\Week3\Week3\bin\Debug\Week3.exe.config
+D:\Conestoga\Software Dev\Week3\Week3\bin\Debug\Week3.exe
+D:\Conestoga\Software Dev\Week3\Week3\bin\Debug\Week3.pdb
+D:\Conestoga\Software Dev\Week3\Week3\obj\Debug\Week3.csprojResolveAssemblyReference.cache
+D:\Conestoga\Software Dev\Week3\Week3\obj\Debug\MainWindow.g.cs
+D:\Conestoga\Software Dev\Week3\Week3\obj\Debug\App.g.cs
+D:\Conestoga\Software Dev\Week3\Week3\obj\Debug\Week3_MarkupCompile.cache
+D:\Conestoga\Software Dev\Week3\Week3\obj\Debug\Week3_MarkupCompile.lref
+D:\Conestoga\Software Dev\Week3\Week3\obj\Debug\MainWindow.baml
+D:\Conestoga\Software Dev\Week3\Week3\obj\Debug\Week3.g.resources
+D:\Conestoga\Software Dev\Week3\Week3\obj\Debug\Week3.Properties.Resources.resources
+D:\Conestoga\Software Dev\Week3\Week3\obj\Debug\Week3.csproj.GenerateResource.Cache
+D:\Conestoga\Software Dev\Week3\Week3\obj\Debug\Week3.csproj.CoreCompileInputs.cache
+D:\Conestoga\Software Dev\Week3\Week3\obj\Debug\Week3.exe
+D:\Conestoga\Software Dev\Week3\Week3\obj\Debug\Week3.pdb

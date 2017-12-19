@@ -1,0 +1,30 @@
+C:\Users\pragna\source\repos\GroupAssignments\Assignment10\Group3\Group3\bin\Debug\Group3.exe.config
+C:\Users\pragna\source\repos\GroupAssignments\Assignment10\Group3\Group3\bin\Debug\Group3.exe
+C:\Users\pragna\source\repos\GroupAssignments\Assignment10\Group3\Group3\bin\Debug\Group3.pdb
+C:\Users\pragna\source\repos\GroupAssignments\Assignment10\Group3\Group3\bin\Debug\SQLite.NET.dll
+C:\Users\pragna\source\repos\GroupAssignments\Assignment10\Group3\Group3\obj\Debug\MainWindow.g.cs
+C:\Users\pragna\source\repos\GroupAssignments\Assignment10\Group3\Group3\obj\Debug\App.g.cs
+C:\Users\pragna\source\repos\GroupAssignments\Assignment10\Group3\Group3\obj\Debug\Group3_MarkupCompile.cache
+C:\Users\pragna\source\repos\GroupAssignments\Assignment10\Group3\Group3\obj\Debug\Group3_MarkupCompile.lref
+C:\Users\pragna\source\repos\GroupAssignments\Assignment10\Group3\Group3\obj\Debug\MainWindow.baml
+C:\Users\pragna\source\repos\GroupAssignments\Assignment10\Group3\Group3\obj\Debug\Group3.g.resources
+C:\Users\pragna\source\repos\GroupAssignments\Assignment10\Group3\Group3\obj\Debug\Group3.Properties.Resources.resources
+C:\Users\pragna\source\repos\GroupAssignments\Assignment10\Group3\Group3\obj\Debug\Group3.csproj.GenerateResource.Cache
+C:\Users\pragna\source\repos\GroupAssignments\Assignment10\Group3\Group3\obj\Debug\Group3.csproj.CoreCompileInputs.cache
+C:\Users\pragna\source\repos\GroupAssignments\Assignment10\Group3\Group3\obj\Debug\Group3.exe
+C:\Users\pragna\source\repos\GroupAssignments\Assignment10\Group3\Group3\obj\Debug\Group3.pdb
+D:\Conestoga\Software Development\Group3-EmployeeSearch\Group3\bin\Debug\Group3.exe.config
+D:\Conestoga\Software Development\Group3-EmployeeSearch\Group3\bin\Debug\Group3.exe
+D:\Conestoga\Software Development\Group3-EmployeeSearch\Group3\bin\Debug\Group3.pdb
+D:\Conestoga\Software Development\Group3-EmployeeSearch\Group3\obj\Debug\Group3.csprojResolveAssemblyReference.cache
+D:\Conestoga\Software Development\Group3-EmployeeSearch\Group3\obj\Debug\MainWindow.g.cs
+D:\Conestoga\Software Development\Group3-EmployeeSearch\Group3\obj\Debug\App.g.cs
+D:\Conestoga\Software Development\Group3-EmployeeSearch\Group3\obj\Debug\Group3_MarkupCompile.cache
+D:\Conestoga\Software Development\Group3-EmployeeSearch\Group3\obj\Debug\Group3_MarkupCompile.lref
+D:\Conestoga\Software Development\Group3-EmployeeSearch\Group3\obj\Debug\MainWindow.baml
+D:\Conestoga\Software Development\Group3-EmployeeSearch\Group3\obj\Debug\Group3.g.resources
+D:\Conestoga\Software Development\Group3-EmployeeSearch\Group3\obj\Debug\Group3.Properties.Resources.resources
+D:\Conestoga\Software Development\Group3-EmployeeSearch\Group3\obj\Debug\Group3.csproj.GenerateResource.Cache
+D:\Conestoga\Software Development\Group3-EmployeeSearch\Group3\obj\Debug\Group3.csproj.CoreCompileInputs.cache
+D:\Conestoga\Software Development\Group3-EmployeeSearch\Group3\obj\Debug\Group3.exe
+D:\Conestoga\Software Development\Group3-EmployeeSearch\Group3\obj\Debug\Group3.pdb

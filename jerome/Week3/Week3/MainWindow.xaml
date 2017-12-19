@@ -1,0 +1,22 @@
+﻿<Window x:Class="Week3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Week3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="625" Loaded="Window_Loaded">
+    <Viewbox>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal" Width="100" HorizontalAlignment="Center">
+                <CheckBox Name="cbx1" Content="11"/>
+                <CheckBox Name="cbx2" Content="7"/>
+                <CheckBox Name="cbx3" Content="3"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Width="100" HorizontalAlignment="Center">
+                <RadioButton Name="rbAdd" Content="Add"/>
+                <RadioButton Name="rbSub" Content="Sub"/>
+            </StackPanel>
+        </StackPanel>
+    </Viewbox>
+</Window>
