@@ -1,0 +1,52 @@
+﻿<Window x:Class="SystemDependencies.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SystemDependencies"
+        mc:Ignorable="d"
+        Title="System Dependencies" Height="350" Width="625">
+    <Grid Background="#000000">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1.5*"/>
+            <RowDefinition Height="9*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Margin="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Column="0" Content="Comm:" VerticalAlignment="Center" FontSize="14" 
+                       HorizontalAlignment="Center" Foreground="#ffffff"/>
+            <TextBox Grid.Column="1" Name="tbx" Text="{Binding Command}" Background="Transparent" BorderBrush="Transparent" 
+                             Foreground="#ffffff" FontSize="16" VerticalContentAlignment="Center" CaretBrush="#ffffff" KeyDown="tbx_KeyDown"/>
+            <Border Grid.Column="2" CornerRadius="5,5,5,5" Background="#E64C65">
+                <Button Name="btnExecute" Content="Execute" Click="btnExecute_Click" FontFamily="Constantia"
+                            FontSize="16" Background="Transparent" Foreground="#ffffff" BorderBrush="Transparent"/>
+            </Border>
+            <Label Grid.Column="3" Content="-OR-" VerticalAlignment="Center" FontSize="14" 
+                       HorizontalAlignment="Center" Foreground="#ffffff"/>
+            <Border Grid.Column="4" CornerRadius="5,5,5,5" Background="#E64C65">
+                <Button Name="btnSimulate" Content="Load Example" Click="btnSimulate_Click" FontFamily="Constantia"
+                            FontSize="16" Background="Transparent" Foreground="#ffffff" BorderBrush="Transparent"/>
+            </Border>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <ScrollViewer  Grid.Column="0">
+                <TextBlock TextAlignment="Left" Name="tblInputs" Margin="10" Background="#000000" Foreground="#FFFFFF"
+                           FontSize="14" Text="{Binding Inputs}"/>
+            </ScrollViewer>
+            <ScrollViewer  Grid.Column="1">
+                <TextBlock TextAlignment="Left" Name="tblOutputs" Margin="10" Background="#000000" Foreground="#FFFFFF"
+                           FontSize="14" Text="{Binding Outputs}"/>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</Window>

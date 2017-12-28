@@ -1,0 +1,15 @@
+C:\Users\architsharma\source\repos\SystemDependencies\SystemDependencies\bin\Debug\SystemDependencies.exe.config
+C:\Users\architsharma\source\repos\SystemDependencies\SystemDependencies\bin\Debug\SystemDependencies.exe
+C:\Users\architsharma\source\repos\SystemDependencies\SystemDependencies\bin\Debug\SystemDependencies.pdb
+C:\Users\architsharma\source\repos\SystemDependencies\SystemDependencies\obj\Debug\MainWindow.g.cs
+C:\Users\architsharma\source\repos\SystemDependencies\SystemDependencies\obj\Debug\App.g.cs
+C:\Users\architsharma\source\repos\SystemDependencies\SystemDependencies\obj\Debug\SystemDependencies_MarkupCompile.cache
+C:\Users\architsharma\source\repos\SystemDependencies\SystemDependencies\obj\Debug\SystemDependencies_MarkupCompile.lref
+C:\Users\architsharma\source\repos\SystemDependencies\SystemDependencies\obj\Debug\MainWindow.baml
+C:\Users\architsharma\source\repos\SystemDependencies\SystemDependencies\obj\Debug\SystemDependencies.g.resources
+C:\Users\architsharma\source\repos\SystemDependencies\SystemDependencies\obj\Debug\SystemDependencies.Properties.Resources.resources
+C:\Users\architsharma\source\repos\SystemDependencies\SystemDependencies\obj\Debug\SystemDependencies.csproj.GenerateResource.Cache
+C:\Users\architsharma\source\repos\SystemDependencies\SystemDependencies\obj\Debug\SystemDependencies.csproj.CoreCompileInputs.cache
+C:\Users\architsharma\source\repos\SystemDependencies\SystemDependencies\obj\Debug\SystemDependencies.exe
+C:\Users\architsharma\source\repos\SystemDependencies\SystemDependencies\obj\Debug\SystemDependencies.pdb
+C:\Users\architsharma\source\repos\SystemDependencies\SystemDependencies\obj\Debug\SystemDependencies.csprojResolveAssemblyReference.cache
