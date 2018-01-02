@@ -1,0 +1,23 @@
+﻿<Window x:Class="SystemDependency.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SystemDependency"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBox Grid.Row="0" Text="{Binding CommandInput}" Margin="5 10" FontSize="14" VerticalContentAlignment="Center" HorizontalContentAlignment="Left"/>
+        <Button Grid.Row="1" Content="Enter Command" Margin="200 10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="12" Name="btnCmdInput" Click="btnCmdInput_Click"/>
+        <Label Grid.Row="2" Content="{Binding Messages}" Foreground="Red" Margin="5 10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18"/>
+        <ListBox Grid.Row="3" ItemsSource="{Binding OutputList}" Margin="5 10"/>
+        <Button Grid.Row="4" Content="Clear" Margin="200 10" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="18"/>
+    </Grid>
+</Window>
