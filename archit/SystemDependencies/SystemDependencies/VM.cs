@@ -1,4 +1,12 @@
-﻿using Microsoft.Win32;
+﻿/*System Dependencies - Final Assignment - GRP 3
+ * Archit A.    8024168
+ * Parthik M.   8050213
+ * Jerome S.    8055907
+ * Jaspreet K.  8051666
+ * Andrew H.    8113730
+ * Bhumi S.     8022584
+ */
+using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -231,7 +239,6 @@ namespace SystemDependencies
             Inputs += error + "\n";
         }
 
-
         public void SimulateFromFile()
         {
             string line = "";
@@ -251,7 +258,6 @@ namespace SystemDependencies
                 }
             }      
         }
-
 
         public event PropertyChangedEventHandler PropertyChanged;
         private void NotifyPropertyChanged([CallerMemberName] string propertyName = null)

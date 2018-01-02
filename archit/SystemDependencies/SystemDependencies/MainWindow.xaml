@@ -1,4 +1,11 @@
-﻿<Window x:Class="SystemDependencies.MainWindow"
+﻿<!--System Dependencies - Final Assignment - GRP 3-->
+<!--Archit A.   8024168-->
+<!--Parthik M.  8050213-->
+<!--Jerome S.   8055907-->
+<!--Jaspreet K. 8051666-->
+<!--Andrew H.   8113730-->
+<!--Bhumi S.    8022584-->
+<Window x:Class="SystemDependencies.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
